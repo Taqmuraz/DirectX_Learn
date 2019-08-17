@@ -1,0 +1,13 @@
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\DirectX_Learn.exe
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\DirectX_Learn.pdb
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\obj\x86\Debug\DirectX_Learn.csprojResolveAssemblyReference.cache
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\obj\x86\Debug\DirectX_Learn.exe
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\obj\x86\Debug\DirectX_Learn.pdb
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.Direct3D.dll
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.Direct3DX.dll
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.dll
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.xml
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.Direct3D.xml
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\bin\Debug\Microsoft.DirectX.Direct3DX.xml
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\obj\x86\Debug\DirectX_Learn.EngineSources.resources
+C:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\obj\x86\Debug\DirectX_Learn.csproj.GenerateResource.Cache

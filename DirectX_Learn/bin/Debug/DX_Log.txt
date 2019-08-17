@@ -1,0 +1,3 @@
+System.IO.FileLoadException: Сборка для смешанного режима построена на основе версии "v1.1.4322" среды выполнения и не может быть загружена в среде выполнения 4.0 без дополнительных конфигурационных данных.
+   в DirectX_Learn.MainForm.InitializeGraphics()
+   в DirectX_Learn.Program.Main() в c:\Users\LuLook\Documents\Projects\DirectX_Learn\DirectX_Learn\Program.cs:строка 18

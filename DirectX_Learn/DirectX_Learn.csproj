@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{76C459D2-CA02-4C23-B030-C37B911A99C2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DirectX_Learn</RootNamespace>
+    <AssemblyName>DirectX_Learn</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\AnimationSystem\AllocatedHierarchyDerived.cs" />
+    <Compile Include="Components\AnimationSystem\AnimationClip.cs" />
+    <Compile Include="Components\AnimationSystem\FrameDerived.cs" />
+    <Compile Include="Components\AnimationSystem\MeshContainerDerived.cs" />
+    <Compile Include="Components\Component.cs" />
+    <Compile Include="Components\GameObject.cs" />
+    <Compile Include="Components\Rendering\IRenderObject.cs" />
+    <Compile Include="Components\Rendering\MeshRenderer.cs" />
+    <Compile Include="Components\Rendering\RenderQueue.cs" />
+    <Compile Include="Components\Time.cs" />
+    <Compile Include="EngineSources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EngineSources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extensions\NullBool.cs" />
+    <Compile Include="Components\Rendering\Camera.cs" />
+    <Compile Include="Components\TransformComponent.cs" />
+    <Compile Include="Extensions\Maths.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="Components\FreeMoveCamera.cs" />
+    <Compile Include="ResourcesLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grass.bmp" />
+    <None Include="Resources\Human.x" />
+    <None Include="Resources\HumanAnim.x" />
+    <None Include="Resources\XTest.x" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EngineSources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EngineSources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass2.jpg" />
+  </ItemGroup>
+</Project>
