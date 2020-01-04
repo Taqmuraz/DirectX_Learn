@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Components\AnimationSystem\AllocatedHierarchyDerived.cs" />
     <Compile Include="Components\AnimationSystem\AnimationClip.cs" />
+    <Compile Include="Components\AnimationSystem\AnimationClipData.cs" />
     <Compile Include="Components\AnimationSystem\FrameDerived.cs" />
     <Compile Include="Components\AnimationSystem\MeshContainerDerived.cs" />
     <Compile Include="Components\Component.cs" />

@@ -1,14 +1,13 @@
 ﻿<Properties StartupItem="DirectX_Learn\DirectX_Learn.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DirectX_Learn\MainForm.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets">
     <Files>
       <File FileName="DirectX_Learn\Program.cs" Line="1" Column="1" />
-      <File FileName="DirectX_Learn\MainForm.cs" Line="128" Column="4" />
-      <File FileName="DirectX_Learn\Components\Camera.cs" Line="1" Column="1" />
-      <File FileName="DirectX_Learn\Components\Transform.cs" Line="1" Column="1" />
+      <File FileName="DirectX_Learn\MainForm.cs" Line="80" Column="4" />
       <File FileName="DirectX_Learn\Extensions\Maths.cs" Line="1" Column="1" />
       <File FileName="DirectX_Learn\Input.cs" Line="1" Column="1" />
       <File FileName="DirectX_Learn\Components\FreeMoveCamera.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" Line="2603" Column="73" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
